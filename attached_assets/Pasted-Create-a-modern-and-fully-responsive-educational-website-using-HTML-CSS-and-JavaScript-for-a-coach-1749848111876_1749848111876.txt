@@ -1,0 +1,119 @@
+Create a modern and fully responsive educational website using HTML, CSS, and JavaScript for a coaching institute named Lord Shiva Lakshya Coaching Classes located in Khera, Rampur, Rajasthan.
+
+The website should have a clean, professional design with good fonts, neat layout, and a navigation bar. The navbar should include: Home, About, Courses, Teachers, Toppers, Results, Alumni, and Contact Us.
+
+Key requirements:
+
+Header:
+
+Coaching logo on the top left
+
+Coaching name “Lord Shiva Lakshya Coaching Classes” next to the logo
+
+Responsive navigation bar with hover effect
+
+Home Page:
+
+Hero section with background image and a tagline like “Achieve Your Lakshya with Lord Shiva’s Blessings!”
+
+Short intro about the coaching (e.g., RBSE Board | 6th to 12th | PCM, PCB, Agriculture, Arts | BSTC | PTET)
+
+About Section:
+
+Brief about the coaching, its mission and vision
+
+Mention focus on 6th–12th RBSE (All streams), BSTC, and PTET exams
+
+Courses Offered:
+
+Grid/List format showing:
+
+Class 6 to 12 (RBSE Board) – All subjects
+
+Class 11–12: PCM, PCB, Agriculture, Arts
+
+BSTC and PTET preparation
+
+Include attractive cards for each course
+
+Teachers Section:
+
+photos of teachers with their name, subject, and short description
+
+Teachers:
+
+Gajendra Suman – Physics – 10+ years experience, known for concept clarity
+
+Jitendra Sir – Maths – Expert in RBSE Maths with proven results
+
+Satyanarayan Sir – Chemistry & Biology – Master in simplifying science
+
+Anil Sir – Maths – Specialist for senior secondary maths
+
+Nisha Ma’am – English – Grammar and literature expert
+
+Add “& Other Qualified Teachers” at the end
+
+Toppers Section:
+
+Show photo gallery of toppers with name, class, percentage
+
+Add a testimonial from each topper like:
+
+“Lord Shiva Coaching gave me the confidence to succeed. – Ravi Sharma, 12th PCM – 94%”
+
+Results Section:
+
+Mention: “Every year, many students score above 90% in board exams.”
+
+Use timeline or year-wise list format
+
+Alumni Section:
+
+Highlight students who got selected in IITs, NEET, or top universities
+
+Include name, year, current institute
+
+Optionally show circular or square photos
+
+Contact Us Section:
+
+Address: Lord Shiva Lakshya Coaching Classes, Khera, Rampur, Rajasthan
+
+Phone Number
+
+Email Address
+
+Contact form (Name, Email, Message)
+
+Google Maps Embed for location
+
+Footer:
+
+Quick links to sections
+
+Social media icons (optional placeholders)
+
+Copyright
+
+Extra Notes:
+
+Use clean, modern fonts like Poppins, Lato, or Roboto
+
+Each section should be scrollable or linkable from navbar
+
+For longer content, use separate HTML pages for: Courses, Teachers, Toppers, Results, and Contact
+
+Mobile responsive using media queries
+
+Add basic interactivity using JavaScript (e.g., mobile navbar toggle)
+
+Write clean, well-commented code in separate files:
+
+index.html
+
+style.css
+
+script.js
+
+Do not include placeholder text like "Lorem Ipsum", instead use real-looking content as mentioned above.

@@ -1,0 +1,159 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(20, 14.3%, 4.1%);
+  --muted: hsl(60, 4.8%, 95.9%);
+  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(20, 14.3%, 4.1%);
+  --border: hsl(20, 5.9%, 90%);
+  --input: hsl(20, 5.9%, 90%);
+  --primary: hsl(210, 79%, 24%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(60, 4.8%, 95.9%);
+  --secondary-foreground: hsl(24, 9.8%, 10%);
+  --accent: hsl(31, 94%, 66%);
+  --accent-foreground: hsl(210, 79%, 24%);
+  --destructive: hsl(0, 84.2%, 60.2%);
+  --destructive-foreground: hsl(60, 9.1%, 97.8%);
+  --ring: hsl(20, 14.3%, 4.1%);
+  --radius: 0.5rem;
+  
+  /* Custom Educational Theme Colors */
+  --education-primary: hsl(210, 79%, 24%); /* Deep blue #1a365d */
+  --education-accent: hsl(31, 94%, 66%); /* Gold #f6ad55 */
+  --education-secondary: hsl(215, 25%, 27%); /* Secondary dark #2d3748 */
+  --education-light-blue: hsl(220, 13%, 91%); /* Light blue #e2e8f0 */
+}
+
+.dark {
+  --background: hsl(240, 10%, 3.9%);
+  --foreground: hsl(0, 0%, 98%);
+  --muted: hsl(240, 3.7%, 15.9%);
+  --muted-foreground: hsl(240, 5%, 64.9%);
+  --popover: hsl(240, 10%, 3.9%);
+  --popover-foreground: hsl(0, 0%, 98%);
+  --card: hsl(240, 10%, 3.9%);
+  --card-foreground: hsl(0, 0%, 98%);
+  --border: hsl(240, 3.7%, 15.9%);
+  --input: hsl(240, 3.7%, 15.9%);
+  --primary: hsl(210, 79%, 24%);
+  --primary-foreground: hsl(211, 100%, 99%);
+  --secondary: hsl(240, 3.7%, 15.9%);
+  --secondary-foreground: hsl(0, 0%, 98%);
+  --accent: hsl(31, 94%, 66%);
+  --accent-foreground: hsl(210, 79%, 24%);
+  --destructive: hsl(0, 62.8%, 30.6%);
+  --destructive-foreground: hsl(0, 0%, 98%);
+  --ring: hsl(240, 4.9%, 83.9%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-poppins antialiased bg-background text-foreground;
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@layer utilities {
+  .font-poppins {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .text-primary-custom {
+    color: var(--education-primary);
+  }
+  
+  .text-accent-custom {
+    color: var(--education-accent);
+  }
+  
+  .bg-primary-custom {
+    background-color: var(--education-primary);
+  }
+  
+  .bg-accent-custom {
+    background-color: var(--education-accent);
+  }
+  
+  .border-accent-custom {
+    border-color: var(--education-accent);
+  }
+}
+
+/* Custom animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom gradient backgrounds */
+.gradient-primary {
+  background: linear-gradient(135deg, var(--education-primary) 0%, hsl(215, 70%, 35%) 100%);
+}
+
+.gradient-accent {
+  background: linear-gradient(135deg, var(--education-accent) 0%, hsl(40, 94%, 70%) 100%);
+}
+
+/* Hero section styles */
+.hero-bg {
+  background-image: linear-gradient(rgba(26, 54, 93, 0.8), rgba(26, 54, 93, 0.6)), 
+                    url('https://images.unsplash.com/photo-1497486751825-1233686d5d80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+/* Card hover effects */
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: var(--education-primary);
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: hsl(215, 70%, 30%);
+  transform: translateY(-2px);
+}
+
+.btn-accent {
+  background-color: var(--education-accent);
+  color: var(--education-primary);
+  transition: all 0.3s ease;
+}
+
+.btn-accent:hover {
+  background-color: hsl(40, 94%, 70%);
+  transform: translateY(-2px);
+}
