@@ -26,7 +26,7 @@ export default function Alumni() {
       name: "Archana Kushwaha",
       batch: "Class of 2018",
       achievement: "RTU - B.Tech",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=150&h=150",
+      image: "https://static.vecteezy.com/system/resources/previews/008/437/407/non_2x/female-icon-for-website-symbol-presentation-free-vector.jpg",
       category: "Engineer at DCM Shriram Kota",
       categoryColor: "bg-purple-500 text-white",
       message: "Lakshya gave me the courage to believe in myself and the skills to succeed in engineering."
