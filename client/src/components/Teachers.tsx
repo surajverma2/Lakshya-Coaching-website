@@ -34,9 +34,9 @@ export default function Teachers() {
     {
       name: "Anil Sir",
       subject: "Junior Mathematics",
-      description: "Experienced educator with 10+ years of teaching Maths to classes 6th to 8th, focused on building strong fundamentals.",
+      description: "Experienced educator with 10+ years of teaching Maths, focused on building strong fundamentals.",
       image: anilsir,
-      badges: ["Mathematics", "6th-8th"],
+      badges: ["Mathematics"],
       badgeColors: ["bg-primary-custom text-white", "bg-accent-custom text-primary-custom"]
     },
     {

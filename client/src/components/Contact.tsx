@@ -64,7 +64,7 @@ export default function Contact() {
     {
       icon: MapPin,
       title: "Address",
-      content: "Lord Shiva Lakshya Coaching Classes\nKhera Rampur,Kota (Raj.)",
+      content: "Lord Shiva Lakshya Coaching Classes\nKhera Rampur,Kota (Raj.) 325001",
       color: "bg-primary-custom"
     },
     {
@@ -76,12 +76,12 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email",
-      content: "info@lordshivalakshya.com\nadmissions@lordshivalakshya.com",
+      content: "info@lordshivalakshya.com",
       color: "bg-green-500"
     },
     {
       icon: Clock,
-      title: "Office Hours",
+      title: "Coaching Hours",
       content: "Mon - Sun: 6:00 AM - 8:00 PM",
       color: "bg-purple-500"
     }
@@ -122,16 +122,6 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Google Maps Placeholder */}
-            <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-              <div className="h-64 bg-gray-200 flex items-center justify-center">
-                <div className="text-center text-gray-500">
-                  <MapPin className="mx-auto h-12 w-12 mb-2" />
-                  <p className="font-semibold">Google Maps Integration</p>
-                  <p className="text-sm"> Lord Shiva Lakshya Coaching Classes Khera Rampur, Kota (Raj.)</p>
-                </div>
-              </div>
-            </div>
           </div>
 
           {/* Contact Form */}

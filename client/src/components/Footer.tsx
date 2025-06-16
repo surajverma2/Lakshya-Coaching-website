@@ -100,7 +100,7 @@ export default function Footer() {
             <div className="space-y-3">
               <div className="flex items-start space-x-3">
                 <MapPin className="text-accent-custom mt-1 h-4 w-4 flex-shrink-0" />
-                <p className="text-blue-200 text-sm">Khera Rampur, Kota(Raj.)</p>
+                <p className="text-blue-200 text-sm">Khera Rampur, Kota(Raj.),325001</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="text-accent-custom h-4 w-4 flex-shrink-0" />

@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import suraj from "../images/suraj1.jpeg";
 import tanu from "../images/tanu2.jpeg";
+import ajay from "../images/ajay.jpeg";
 
 export default function Alumni() {
   const alumni = [
@@ -16,12 +17,21 @@ export default function Alumni() {
     {
       name: "Tanu Saini",
       batch: "Class of 2022",
-      achievement: "Kolkata - MBBS",
+      achievement: "Kolkata Medical College- MBBS",
       image: tanu,
       category: "NEET Medical",
       categoryColor: "bg-green-500 text-white",
       message: "The foundation I built here helped me clear NEET and chase my dream of becoming a doctor."
     },
+    {
+      name: "Archana Kushwaha",
+      batch: "Class of 2014",
+      achievement: "NEET - MBBS",
+      image: "https://static.vecteezy.com/system/resources/previews/008/437/407/non_2x/female-icon-for-website-symbol-presentation-free-vector.jpg",
+      category: "Doctor",
+      categoryColor: "bg-purple-500 text-white",
+      message: "Lakshya Coaching was the first step in my journey to becoming a doctor. Grateful for the strong foundation!"
+        },
     {
       name: "Archana Kushwaha",
       batch: "Class of 2018",
@@ -30,6 +40,15 @@ export default function Alumni() {
       category: "Engineer at DCM Shriram Kota",
       categoryColor: "bg-purple-500 text-white",
       message: "Lakshya gave me the courage to believe in myself and the skills to succeed in engineering."
+    },
+    {
+      name: "Ajay Prajapati",
+      batch: "Class of 2021",
+     
+      image: ajay,
+      category: "Deploma Engineer at HEML",
+      categoryColor: "bg-green-500 text-white",
+      message: "Lakshya Coaching gave me the direction and discipline I needed. Today, I’m proud to be working as a Diploma Engineer at HEML Chemical Plant."
     }
   ];
 

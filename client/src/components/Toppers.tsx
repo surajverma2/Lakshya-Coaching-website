@@ -1,39 +1,60 @@
 import { Card, CardContent } from "@/components/ui/card";
 import monika from "../images/monika.jpeg";
+import jiya from "../images/jiya.jpeg";
+import Khusip from "../images/Khusi_pareta.jpeg";
+import khusig from "../images/Khushi_Gocher.jpeg";
+import madhvi from "../images/Madhavi.jpeg";
+import rashmi from "../images/rashmi.jpeg";
 
 export default function Toppers() {
   const toppers = [
     {
       name: "Jiya Verma",
-      stream: "10th RBSE - 96%",
+      stream: "10th RBSE - 96%, S-100,SAN.-100",
       percentage: "96%",
-      image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
+      image: jiya,
       testimonial: "Thanks to the excellent guidance, I'm now confident about my future goals.",
       badgeColor: "bg-purple-500"
     },
     {
       name: "Monika Verma",
-      stream: "12th PCB - 95%",
+      stream: "12th PCB - 95%, P-98,B-98",
       percentage: "95%",
       image: monika,
       testimonial: "The biology concepts were made so simple. Now I'm ready for NEET!",
       badgeColor: "bg-green-500"
     },
     {
-      name: "Sandhya Meena",
-      stream: "12th PCM - 81%",
-      percentage: "81%",
-      image: "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
+      name: "Khusi Goacher",
+      stream: "10th RBSE - 97%, M-100",
+      percentage: "97%",
+      image: khusig,
+      testimonial: "Lakshya Coaching gave me the confidence to succeed. The teachers' dedication is unmatched!",
+      badgeColor: "bg-primary-custom"
+    },
+    {
+      name: "Madhvi Nama",
+      stream: "10th RBSE - 95.33%, M-100",
+      percentage: "94%",
+      image: madhvi,
+      testimonial: "If you want results, Lakshya Coaching is the place! I scored 100/100 in Maths & SST — all thanks to their excellent teaching.",
+      badgeColor: "bg-green-600"
+    },
+    {
+      name: "Rashmi Suman",
+      stream: "10th RBSE - 95%, S-100",
+      percentage: "95%",
+      image: rashmi,
       testimonial: "Lord Shiva Coaching gave me the confidence to succeed. The teachers' dedication is unmatched!",
       badgeColor: "bg-primary-custom"
     },
     {
-      name: "Hanshika Rathore",
-      stream: "12th Agriculture - 94%",
-      percentage: "94%",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=300&h=300",
-      testimonial: "Agriculture stream opened new opportunities. Great teaching methods!",
-      badgeColor: "bg-green-600"
+      name: "Khusi Pareta",
+      stream: "12th PCB - 93.20%, C-100",
+      percentage: "93.20%",
+      image: Khusip,
+      testimonial: "At Lakshya Coaching, I discovered my true potential With their support.",
+      badgeColor: "bg-green-500"
     },
     // {
     //   name: "Sunita Sharma",

@@ -16,11 +16,7 @@ export default function Results() {
         { subject: "12th PCM: Overall: 100% Pass Rate", color: "bg-blue-100 text-blue-800" },
         { subject: "10th: Overall: 100% Pass Rate", color: "bg-purple-100 text-purple-800" }
       ],
-      toppers: [
-        { name: "Anjali Sharma", marks: "100/100", percentage: "95%" },
-        { name: "Rahul Yadav", marks: "100/100", percentage: "96%" },
-        { name: "Sneha Meena", marks: "99/100", percentage: "94.5%" }
-      ]
+     
     },
     {
       year: "2023",
@@ -31,10 +27,7 @@ export default function Results() {
         { subject: "12th PCM & PCB & Arts: Overall: 100% Pass Rate", color: "bg-blue-100 text-blue-800" },
         { subject: "Agriculture: Overall: 100% Pass Rate", color: "bg-yellow-100 text-yellow-800" }
       ],
-      toppers: [
-        { name: "Priya Verma", marks: "100/100", percentage: "94%" },
-        { name: "Kunal Sharma", marks: "98/100", percentage: "92.5%" }
-      ]
+      
     },
     {
       year: "2022",
@@ -45,10 +38,7 @@ export default function Results() {
         { subject: "PTET: 78% Selection", color: "bg-blue-100 text-blue-800" },
         { subject: "Top Performers: 25+", color: "bg-purple-100 text-purple-800" }
       ],
-      toppers: [
-        { name: "Mohit Sahu", marks: "100/100", percentage: "93%" },
-        { name: "Shivani Nagar", marks: "99/100", percentage: "91%" }
-      ]
+      
     }
   ];
 
@@ -94,19 +84,9 @@ export default function Results() {
                     ))}
                   </div>
 
-                  {/* Toppers List */}
-                  {result.toppers && (
-                    <div className="mt-2">
-                      <h5 className="font-semibold text-primary-custom mb-1">Top Performers:</h5>
-                      <ul className="list-disc list-inside text-gray-700 text-sm space-y-1">
-                        {result.toppers.map((topper, i) => (
-                          <li key={i}>
-                            {topper.name} – {topper.marks}, {topper.percentage}
-                          </li>
-                        ))}
-                      </ul>
-                    </div>
-                  )}
+                 
+                  
+                  
                 </div>
               </div>
             ))}
