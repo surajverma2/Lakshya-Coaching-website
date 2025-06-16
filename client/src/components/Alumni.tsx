@@ -25,7 +25,7 @@ export default function Alumni() {
     {
       name: "Archana Kushwaha",
       batch: "Class of 2018",
-      achievement: "RTU - B.Tech",
+      achievement: "Rajasthan Technical Univercity- B Tech",
       image: "https://static.vecteezy.com/system/resources/previews/008/437/407/non_2x/female-icon-for-website-symbol-presentation-free-vector.jpg",
       category: "Engineer at DCM Shriram Kota",
       categoryColor: "bg-purple-500 text-white",
